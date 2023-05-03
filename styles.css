@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-body{
+:root{
 	background-color:skyblue;
 }
 
@@ -12,7 +12,11 @@ body{
 	color: red;
 }
 
-.container ul li:nth-child(2n-1){
+.container ul li:first-child{
+	background-color:white;
+}
+
+.container ul li:last-child{
 	background-color:white;
 }
 
