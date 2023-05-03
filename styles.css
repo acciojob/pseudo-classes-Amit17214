@@ -3,27 +3,27 @@
 	background-color:skyblue;
 }
 
- .container h5:first-child{
+ div :first-child{
 	background-color:black;
 	color:white;
 }
 
-.container p:last-child{
+ div :last-child{
 	color: red;
 }
 
-.container ul li:first-child{
+ ul li:first-child{
 	background-color:white;
 }
 
-.container ul li:last-child{
+ ul li:last-child{
 	background-color:white;
 }
 
-.container ul li:nth-child(2n){
+ ul li:nth-child(2n){
 	background-color: gray;
 }
 
-.container ul li:nth-child(3){
+ ul li:nth-child(3){
 	background-color:pink;
 }
