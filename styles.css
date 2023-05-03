@@ -12,18 +12,22 @@
 	color: red;
 }
 
- ul li:first-child{
+ ul li:nth-child(1){
 	background-color:white;
 }
 
- ul li:last-child{
+ ul li:nth-child(5){
 	background-color:white;
 }
 
- ul li:nth-child(2n){
-	background-color: gray;
+ ul li:nth-child(2){
+    background-color: slategrey;
 }
 
- ul li:nth-child(3){
+ul li:nth-child(3){
 	background-color:pink;
+}
+
+ ul li:nth-child(4){
+    background-color: slategrey;
 }
